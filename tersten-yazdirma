@@ -1,0 +1,10 @@
+int a,i;
+string ad,tad="";
+a = textBox1.Text.Length;
+ad = textBox1.Text;
+a--;
+for (i = a; i >= 0; i--)
+{
+tad = tad + ad[i].ToString();
+}
+textBox2.Text = tad;
